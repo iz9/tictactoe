@@ -1,0 +1,14 @@
+{
+    "*.{js,ts,jsx,tsx,html,md,json,css,scss}": "prettier --write",
+
+    "*.{ts,tsx}":[
+    "tsc --noEmit"
+    ],
+
+    "*.{ts,tsx,js,jsx}": [
+      "npm run eslint --fix"
+    ],
+    "*.{css,scss}": [
+        "npx stylelint --fix"
+    ]
+}
