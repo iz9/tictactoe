@@ -31,6 +31,9 @@
 .game-cell.win-cell {
   background-color: greenyellow;
 }
+.game-cell.loose-cell {
+  background-color: red;
+}
 
 .game-control {
   padding: 1rem;
