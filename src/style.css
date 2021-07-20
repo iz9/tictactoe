@@ -28,10 +28,10 @@
   cursor: pointer;
   font-size: 70px;
 }
-.game-cell.win-cell {
+.win-cell {
   background-color: greenyellow;
 }
-.game-cell.loose-cell {
+.loose-cell {
   background-color: red;
 }
 
@@ -59,7 +59,12 @@
   top: 50%;
   margin-left: -150px;
   margin-top: -100px;
-  background-color: orangered;
-  opacity: 0.5;
+  background-color: sandybrown;
+  /*opacity: 0.5;*/
+  border: 3px solid red;
   border-radius: 2%;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
